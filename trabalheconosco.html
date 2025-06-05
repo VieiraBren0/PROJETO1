@@ -97,5 +97,15 @@
             <p>Desenvolvido por: Breno </p>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const form = document.querySelector(".trabalhe-conosco-form form");
+            form.addEventListener("submit", function (event) {
+                event.preventDefault(); // Impede o envio real do formulário
+                alert("Currículo Enviado!");
+            });
+        });
+    </script>
 </body>
 </html>
